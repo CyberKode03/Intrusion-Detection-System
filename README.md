@@ -18,3 +18,7 @@ A simple GUI-based IDS built with Python. It uses `scapy` to sniff network traff
 
 ```bash
 python main.py
+
+
+## 🧠 Developer
+Made by [CyberKode03](https://github.com/CyberKode03)
