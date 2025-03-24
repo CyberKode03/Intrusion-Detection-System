@@ -1,0 +1,27 @@
+# ✅ Ignore the SQLite database file
+alerts.db
+
+# ✅ Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ✅ Ignore virtual environments if created
+env/
+venv/
+ENV/
+.venv/
+
+# ✅ Ignore log files if any
+*.log
+
+# ✅ Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# ✅ Ignore VSCode settings (if using VSCode)
+.vscode/
+
+# ✅ Ignore Jupyter Notebook checkpoints if any
+.ipynb_checkpoints/
