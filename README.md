@@ -1,24 +1,41 @@
 # 🛡️ Intrusion Detection System (IDS)
 
-A simple GUI-based IDS built with Python. It uses `scapy` to sniff network traffic and `snort` rules for alert parsing.
+This is a GUI-based Intrusion Detection System developed using Python, Scapy, and Tkinter. It captures live packets, analyzes them, and displays suspicious activity in real-time.
+
+---
 
 ## 🚀 Features
-- Start/Stop packet sniffing
-- View alerts from snort logs
-- Tkinter GUI dashboard
 
-## 📦 Requirements
-- Python 3.x
-- scapy
-- tkinter (usually preinstalled)
-- snort (for alert generation)
-- sqlite3
+- 📡 **Packet Sniffing** using Scapy
+- ⚠️ **Alert Monitoring** from Snort logs
+- 🖥️ **User-Friendly GUI** with Tkinter
+- 🗃️ **SQLite Integration** for alert storage
+- 🔄 **Real-time Alert Refresh**
 
-## 🛠️ Run the Project
+---
+
+## 📂 Project Structure
 
 ```bash
-python main.py
+IDS/
+├── .gitignore
+├── alert_viewer_gui.py
+├── db_connect.py
+├── main.py                  # Main GUI Application
+├── parse_run.py            # (Optional) For testing snort parsing
+├── sniffer.py              # Packet capturing
+├── snort_alerts.txt        # Snort alert log (sample)
+├── snort_parser.py         # Parses alerts into database
+├── test_insert.py          # (Optional) Database test
 
 
-## 🧠 Developer
-Made by [CyberKode03](https://github.com/CyberKode03)
+🛠️ Requirements
+Python 3.x
+scapy
+tkinter
+sqlite3
+Snort (for real-world deployment)
+
+
+
+
