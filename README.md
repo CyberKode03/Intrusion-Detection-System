@@ -25,3 +25,12 @@ This project is a lightweight **Intrusion Detection System** built using Python 
 - Tkinter
 - SQLite
 - Snort IDS
+
+
+---
+
+## 🖼️ GUI Preview
+
+Here’s a preview of the Intrusion Detection System’s alert viewer interface:
+
+![GUI Screenshot](gui_screenshot.png)
