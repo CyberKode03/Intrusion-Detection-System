@@ -29,13 +29,3 @@ IDS/
 ├── test_insert.py          # (Optional) Database test
 
 
-🛠️ Requirements
-Python 3.x
-scapy
-tkinter
-sqlite3
-Snort (for real-world deployment)
-
-
-
-
