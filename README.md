@@ -34,3 +34,4 @@ This project is a lightweight **Intrusion Detection System** built using Python 
 Here’s a preview of the Intrusion Detection System’s alert viewer interface:
 
 ![GUI Screenshot](gui_screenshot.jpg)
+![OUTPUT_Screenshot](Alert_Gui.jpg)
