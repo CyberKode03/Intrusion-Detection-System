@@ -8,8 +8,9 @@ try:
     db = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="",  # Replace with your MySQL password
-        database="idsdb"         # Make sure this database and table exist
+        password="",  # Replace with your MySQL password if you set one
+        database="idsdb",  # Ensure this database exists
+        port=3377          # ✅ This is critical if you changed the port in XAMPP
     )
 except mysql.connector.Error as err:
     messagebox.showerror("Database Connection Error", f"Error: {err}")

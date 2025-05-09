@@ -1,5 +1,3 @@
-# main.py
-
 import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
@@ -41,9 +39,8 @@ class IDSApp:
         self.tree.pack(expand=True, fill=tk.BOTH, padx=10, pady=10)
 
     def start_sniffing(self):
-        self.sniffing_thread = threading.Thread(target=sniffer.start_sniffing)
-        self.sniffing_thread.daemon = True
-        self.sniffing_thread.start()
+        # Start sniffing in the main thread to avoid asyncio issues
+        sniffer.start_sniffing()
         messagebox.showinfo("Started", "Packet sniffing has started.")
 
     def stop_sniffing(self):
